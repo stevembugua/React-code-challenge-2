@@ -6,7 +6,7 @@ function App() {
   const [data,setData] = useState([])
   const [selected, setSelected] = useState([])
   useEffect(()=>{
-    fetch(" https://stevembugua.github.io/stevebots.github.io/db.json")
+    fetch(" http://localhost:3000/bots")
     .then(res=>res.json())
     .then(response=>{
       setData(response)
@@ -16,7 +16,7 @@ function App() {
   //delete a bot
 
   const deleteFromFile  = (id)=>{
-    fetch("https://stevembugua.github.io/stevebots.github.io/db.json/" + id, {
+    fetch("http://localhost:3000/bots/" + id, {
       method: "DELETE",
     })
       .then(res => res.json())
