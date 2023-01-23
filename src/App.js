@@ -6,7 +6,7 @@ function App() {
   const [data,setData] = useState([])
   const [selected, setSelected] = useState([])
   useEffect(()=>{
-    fetch(" http://localhost:3000/bots")
+    fetch(" https://api.jsonbin.io/v3/b/63cedc6febd26539d0661727")
     .then(res=>res.json())
     .then(response=>{
       setData(response)
@@ -16,7 +16,7 @@ function App() {
   //delete a bot
 
   const deleteFromFile  = (id)=>{
-    fetch("http://localhost:3000/bots/" + id, {
+    fetch("https://api.jsonbin.io/v3/b/63cedc6febd26539d0661727/" + id, {
       method: "DELETE",
     })
       .then(res => res.json())
