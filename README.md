@@ -11,7 +11,7 @@ If you haven't already, fork and clone this lesson into your local environment.
 # alternative 1
 - Use the github pages link provided below to run the program
 
-           https://stevembugua.github.io/React-code-challenge-2/
+           https://precious-croissant-38468f.netlify.app/
 
 
 # Quick Review to clone the program into your local environment
