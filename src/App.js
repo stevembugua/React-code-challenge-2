@@ -6,7 +6,7 @@ function App() {
   const [data,setData] = useState([])
   const [selected, setSelected] = useState([])
   useEffect(()=>{
-    fetch(" https://api.jsonbin.io/v3/b/63cedc6febd26539d0661727")
+    fetch(" https://www.npoint.io/docs/a08b7d7af9675f4acb31")
     .then(res=>res.json())
     .then(response=>{
       setData(response)
@@ -16,7 +16,7 @@ function App() {
   //delete a bot
 
   const deleteFromFile  = (id)=>{
-    fetch("https://api.jsonbin.io/v3/b/63cedc6febd26539d0661727/" + id, {
+    fetch("https://www.npoint.io/docs/a08b7d7af9675f4acb31/" + id, {
       method: "DELETE",
     })
       .then(res => res.json())
