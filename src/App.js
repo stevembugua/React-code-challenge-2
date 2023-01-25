@@ -9,7 +9,7 @@ function App() {
     fetch(" https://stevembugua.github.io/stevebots.github.io/db.json")
     .then(res=>res.json())
     .then(response=>{
-      setData(response)
+      setData(response.bots)
     })
   },[])
 
