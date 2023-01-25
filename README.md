@@ -9,7 +9,7 @@ The program is about a bot fighting game in which players control robots or "bot
 If you haven't already, fork and clone this lesson into your local environment.
 
 # alternative 1
-- Use the github pages link provided below to run the program
+- Use the netlify link provided below to run the program
 
            https://precious-croissant-38468f.netlify.app/
 
